@@ -1,0 +1,8 @@
+<backends>
+ <backend name="merge-write-backend">
+   <options>
+     <public>true</public>
+     <dynamic>true</dynamic>
+   </options>
+ </backend>
+</backends>

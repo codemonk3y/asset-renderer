@@ -1,0 +1,10 @@
+<queue-entries>
+	<!--Set the number of max concurrent requests to 10 -->
+	<total-storage-limit>100M</total-storage-limit>
+	<queue>
+		<name>merge-write-queue</name>
+		<rate>20/s</rate>
+		<bucket-size>45</bucket-size>
+		<max-concurrent-requests>10</max-concurrent-requests>
+	</queue>
+</queue-entries> 
